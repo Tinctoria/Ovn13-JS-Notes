@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Övning 13</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="functions.js"></script> 
+    <link rel="stylesheet" type="text/css" href="icons-1.4.1/font/bootstrap-icons.css"> 
+</head>
+<body>
+    <form id="form"> 
+        <h2> My notes</h2>
+        <label for="title">Title</label>
+        <input type="text" name="title" id="title" placeholder="Title"> 
+        <label for="description">Description</label>
+        <textarea type="textarea" name="description" id="textArea"> </textarea>
+        <button id="button"> Submit </button>
+    </form>
+    <p>Number of submissions: <div id="counter"></div></p>
+    <table>
+        <thead> 
+            <tr> 
+                <th>Title</th>
+                <th>Description</th>
+                <th>Date</th>
+            </tr> 
+        </thead>
+        <tbody id="whereRowsGo"> 
+
+        </tbody>
+    </table>
+    
+    <script src="main.js"> </script>
+</body>
+</html>

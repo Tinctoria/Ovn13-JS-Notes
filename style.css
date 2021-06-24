@@ -24,6 +24,7 @@ form {
     height:fit-content; 
     background-color: cornflowerblue;
     display: flex; 
+    align-items: center;
     flex-direction: column;
 }
 h2 {
@@ -33,16 +34,17 @@ h2 {
 }
 
 input, textarea{  
-    margin-left: 2rem;
-    margin-right: 2rem;
     background-color: cornsilk;
     padding: 0.5rem;
+    width: 80%;
+    max-width: 80%;
 }
 label {
     margin-top: 1rem; 
     margin-bottom: 0.3rem;
-    margin-left: 2rem;
+    margin-left: 2.5rem;
     color: cornsilk;
+    align-self: flex-start;
 }
 
 #button {
